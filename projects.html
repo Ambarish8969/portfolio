@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Ambarish Bhagawati</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">AB</a>
+        <nav>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1>Featured Projects</h1>
+          <div class="grid projects-grid">
+            <div class="card">
+              <h3>Org-to-Org Integration</h3>
+              <p>Connected two Salesforce orgs using REST APIs. Implemented OAuth authentication and automated case transfer between systems.</p>
+            </div>
+            <div class="card">
+              <h3>Case Management Automation</h3>
+              <p>Created Flows and Apex solutions to streamline case routing and improve agent productivity.</p>
+            </div>
+            <div class="card">
+              <h3>LWC Component Library</h3>
+              <p>Built reusable Lightning Web Components to improve UI consistency and maintainability across applications.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Ambarish Bhagawati</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
