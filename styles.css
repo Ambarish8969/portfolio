@@ -213,7 +213,7 @@ a { text-decoration: none; color: inherit; }
   display: flex; flex-direction: column; gap: 4px;
 }
 .cert-item strong { font-size: 14px; font-weight: 600; color: #fff; }
-.cert-item span { font-size: 12px; color: var(--text-muted); }
+.cert-item span { font-size: 12px; color: var(--text-muted); display: none; }
 
 /* ── Education ── */
 .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
